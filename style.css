@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  background-color: #FDE5D4;
+}
+
+h1{
+  text-align: center;
+}
+
+#final-number{
+  text-align: center;
+  background-color: #132043;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.again-button-wrapper{
+  text-align: center;
+}
+
+#again-button{
+  padding: 10px 20px;
+}
+
+#check-input{
+  padding: 15px 20px;
+  margin-right: 15px;
+}
+
+#check-form{
+  text-align: center;
+}
+
+#check-button{
+  padding: 15px 20px;
+}
+
+.text {
+  color: red;
+  background-color: bisque;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+#game-status{
+  margin-bottom: 20px;
+}
+
+.game-text-wrapper{
+  margin-left: 75%;
+  margin-top: 5%;
+  background-color: #1F4172;
+  padding: 30px;
+}
+
+.game-text-wrapper, h3{
+  font-size: 25px;
+  color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}

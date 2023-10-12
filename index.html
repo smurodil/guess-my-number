@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Guess my number between 1 and 20</h1>
+    <h2 id="final-number">?</h2>
+    <div class="again-button-wrapper"><button id="again-button">Again</button></div>
+    <br />
+    <br />
+    <form id="check-form">  
+      <input id="check-input" type="text" placeholder="Enter a number" />
+      <button id="check-button">Check</button>
+    </form>
+
+    <div>
+      <h1 id="game-status">Start game</h1>
+    </div>
+
+    <div class="game-text-wrapper">
+      <h3 class="game-counter">Urunishlar soni : <span id="game-counter">15</span></h3>
+      <h3 class="game-result">Eng yaxshi natija: <span id="game-result">0</span></h3>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
